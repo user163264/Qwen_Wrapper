@@ -1,0 +1,68 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local configuration
+config/local_config.json
+*.log
+
+# Test files and development
+test_workspace/
+qwen_workspace/
+*_test.txt
+*_test.py
+integration_test/
+test/
+
+# Development and diagnostic files
+MEMORY_FOR_NEXT_CHAT.md
+CURRENT_STATUS.md
+diagnose_setup.py
+test_*.py
+
+# Sample files
+sample.cpp
+sample.py
+hello.txt
+
+# Legacy and backup files
+*_orig_*.txt
+*_backup.*
+*_old.*
+qwen_fallback.py
+
+# Runtime files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.coverage
+.tox/
+
+# Development scripts
+quick_start*.sh
+run_qwen.sh
+activate_venv.sh
+setup_venv.sh
